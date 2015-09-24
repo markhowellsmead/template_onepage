@@ -1,0 +1,44 @@
+/**
+* Advanced typography for browsers which understand @media queries
+*
+* @since 	24/09/15
+*/
+
+@import '../config/config';
+
+html {
+	@include breakpoint(small) {
+		font-size: map-get($font-size, 'small');
+		line-height: map-get($line-height, 'small');
+	}
+	@include breakpoint(medium) {
+		font-size: map-get($font-size, 'medium');
+		line-height: map-get($line-height, 'medium');
+	}
+	@include breakpoint(large) {
+		font-size: map-get($font-size, 'large');
+		line-height: map-get($line-height, 'large');
+	}
+	@include breakpoint(chewie) {
+		font-size: map-get($font-size, 'chewie');
+		line-height: map-get($line-height, 'chewie');
+	}
+}
+
+h1 {
+	@include breakpoint(tiny) {
+		font-size: map-get($h1-size, 'tiny');
+	}
+	@include breakpoint(small) {
+		font-size: map-get($h1-size, 'small');
+	}
+	@include breakpoint(medium) {
+		font-size: map-get($h1-size, 'medium');
+	}
+	@include breakpoint(large) {
+		font-size: map-get($h1-size, 'large');
+	}
+	@include breakpoint(chewie) {
+		font-size: map-get($h1-size, 'chewie');
+	}
+}

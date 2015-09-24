@@ -1,0 +1,43 @@
+@import '../config/config';
+@import 'typography';
+
+.constrained {
+	.inner {
+		text-align: left;
+		max-width: $width-constraint;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: $unit-x;
+		padding-right: $unit-x;
+	}
+}
+
+nav {
+	&.meta, &.primary {
+		
+		li {
+			display: inline-block;
+		}
+		
+	}
+}
+
+.module {
+	
+	&.row {
+		padding-top: $unit-y;
+		padding-bottom: $unit-y;
+	}
+
+	&.video {
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%;
+		position: relative;
+		margin-bottom: $unit-y;
+		iframe {
+			@extend %flood;
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+@import '../config/config';
+
+$background-dark: 	$grey;
+$text-dark: 		$lightgrey;
+
+
+.module {
+	
+	&.dark {
+		background-color: $background-dark;
+		color: $text-dark;
+		font-weight: 500;
+	}
+
+}

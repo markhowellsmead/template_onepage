@@ -1,0 +1,118 @@
+@import '../config/config';
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-width: 240px;
+	font-size: map-get($font-size, 'default');
+	line-height: map-get($line-height, 'default');
+}
+
+body {
+	text-align:center;
+	background-color: $page-background;
+	font-weight: $font-weight;
+	font-size: 1rem;
+	font-family: $base-font;
+	-moz-font-feature-settings: “liga” on;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0.01rem;
+	color: $text-colour;
+}
+
+.section-title {
+	@extend %section-title;
+}
+
+.section-subtitle {
+	@extend %section-subtitle;
+}
+
+.button {
+	@extend %button;
+}
+
+select {
+
+}
+
+.inline-nav {
+	@extend %inline-nav;
+}
+
+a {
+	color: $link-colour;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@extend %title;
+}
+
+h1 {
+	font-size: map-get($h1-size, 'default');
+}
+
+h2 {
+	font-size: map-get($h2-size, 'default');
+}
+
+h3 {
+	font-size: map-get($h3-size, 'default');
+}
+
+h4 {
+	font-size: map-get($h4-size, 'default');
+}
+
+h5 {
+	font-size: map-get($h5-size, 'default');
+}
+
+h6 {
+	font-size: map-get($h6-size, 'default');
+}
+
+img	{
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+iframe {
+	max-width:100%;
+}
+
+blockquote {
+	@extend %infobox !optional;
+}
+
+p, ul {
+	margin:0 0 $unit-y;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	padding: 0;
+	margin:0 0 $unit-y / 2;
+}
+
+ol li {
+	margin-left: -$unit-x;
+}
+
+svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
+	pointer-events: none;
+}
+

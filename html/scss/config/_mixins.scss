@@ -1,0 +1,20 @@
+@mixin breakpoint($point) {
+	@if $point == chewie {
+		@media (min-width: $breakpoint-large-max + 1) { @content ; }
+	}
+	@else if $point == large {
+		@media (min-width: $breakpoint-medium-max + 1) { @content ; }
+	}
+	@else if $point == medium {
+		@media (min-width: $breakpoint-small-max + 1) { @content ; }
+	}
+	@else if $point == small {
+		@media (min-width: $breakpoint-tiny-max + 1) { @content ; }
+	}
+	@else if $point == tinyonly {
+		@media (max-width: $breakpoint-tiny-max) { @content ; }
+	}
+	@else if $point == mediumonly {
+		@media (min-width: $breakpoint-small-max + 1) and (max-width: $breakpoint-medium-max) { @content ; }
+	}
+}
