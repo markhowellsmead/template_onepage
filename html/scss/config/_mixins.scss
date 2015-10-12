@@ -3,6 +3,9 @@
 		@media (min-width: $breakpoint-large-max + 1) { @content ; }
 	}
 	@else if $point == large {
+		@media (min-width: $breakpoint-mediumlarge-max + 1) { @content ; }
+	}
+	@else if $point == mediumlarge {
 		@media (min-width: $breakpoint-medium-max + 1) { @content ; }
 	}
 	@else if $point == medium {

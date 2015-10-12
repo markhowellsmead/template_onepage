@@ -36,7 +36,7 @@
 }
 
 %for-desktop {
-	@media screen and (min-width: $breakpoint-medium-max + 1){
+	@media screen and (min-width: $breakpoint-mediumlarge-max + 1){
 		display: block;
 	}
 }

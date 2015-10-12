@@ -95,12 +95,13 @@ blockquote {
 	@extend %infobox !optional;
 }
 
-p, ul {
+p {
 	margin:0 0 $unit-y;
 }
 
 ul {
 	padding: 0;
+	margin:0 0 $unit-y $unit-x;
 }
 
 li {
@@ -108,11 +109,14 @@ li {
 	margin:0 0 $unit-y / 2;
 }
 
-ol li {
-	margin-left: -$unit-x;
+table, td, th {
+	border-style: solid;
+}
+
+td, th {
+	padding: #{$unit-y / 4} #{$unit-x / 2};
 }
 
 svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
 	pointer-events: none;
 }
-

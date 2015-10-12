@@ -7,8 +7,8 @@
 		max-width: $width-constraint;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: $unit-x;
-		padding-right: $unit-x;
+		padding-left: #{$unit-x / 2};
+		padding-right: #{$unit-x / 2};
 	}
 }
 
