@@ -32,12 +32,38 @@ nav {
 		text-align: center;
 	}
 	&.hero {
+		background-color: $hero-background;
+		.caption {
+			position: relative;
+			z-index: 1;
+		}
 		.image {
 			position: relative;
-			@extend %background-flood;
-		}
-		.caption {
-			@extend %flood;
+			background: 20000% 0 no-repeat;
+			padding: (2 * $unit-y) 0;
+			&.overlay {
+				&:after {
+					content: '';
+					display: block;
+					@extend %flood;
+				}
+				&.dark {
+					.row-title,.row-subtitle {
+						color: $hero-overlay-dark-colour;
+					}
+					&:after {
+						background-color: $hero-overlay-dark-background;
+					}
+				}
+				&.light {
+					.row-title,.row-subtitle {
+						color: $hero-overlay-light-colour;
+					}
+					&:after {
+						background-color: $hero-overlay-light-background;
+					}
+				}
+			}
 		}
 	}
 

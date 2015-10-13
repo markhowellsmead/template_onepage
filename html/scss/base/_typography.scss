@@ -127,6 +127,23 @@ svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
 	}
 }
 
-.module.nav.primary {
-	font-family: $navigation-font;
+//////////////////////////////////////////////////
+// modules
+
+.module {
+
+	&.nav {
+		&.primary {
+			font-family: $navigation-font;
+		}
+		&.meta {
+			padding: ($unit-y / 2) 0;
+		}
+	}
+	
+	&.hero {
+		.row-title, .row-subtitle {
+			margin: 0;
+		}
+	}
 }

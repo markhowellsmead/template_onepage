@@ -1,5 +1,26 @@
+/**
+* Module definitions
+* Rules in this file only apply in browsers which support media queries
+*/
+
 @import '../config/config';
 
-.module.nav.primary {
-	font-family: $navigation-font;
+@include breakpoint(medium) {
+
+	.module {
+	
+		&.hero {
+			background-color: $hero-background;
+
+			.caption {
+				@include vertical-centre();
+			}
+
+			.image {
+				padding: (4 * $unit-y) 0;
+				@extend %background-flood;
+			}
+		}
+
+	}
 }

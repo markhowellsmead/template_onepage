@@ -21,3 +21,10 @@
 		@media (min-width: $breakpoint-small-max + 1) and (max-width: $breakpoint-medium-max) { @content ; }
 	}
 }
+
+@mixin vertical-centre() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

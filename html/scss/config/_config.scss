@@ -5,6 +5,7 @@ $black:			rgb(0,0,0);
 $white:			rgb(255,255,255);
 $darkgrey:	rgb(51,51,51);
 $grey:			rgb(84,84,84);
+$midgrey:		rgb(200,200,200);
 $lightgrey:	rgb(240,240,240);
 $red:				rgb(177,22,65);
 
@@ -28,6 +29,14 @@ $nav-colour-act:	$red;
 
 $button-background: $red;
 $button-colour: 		$white;
+
+$hero-background: $midgrey;
+$hero-overlay-light-background: rgba(255,255,255,.75);
+$hero-overlay-dark-background:	rgba(0,0,0,.25);
+
+$hero-overlay-light-colour: $grey;
+$hero-overlay-dark-colour:	$white;
+
 
 //////////////////////////////////////////////////
 // breakpoints
@@ -149,6 +158,8 @@ $unit-x: 1.5rem;
 $unit-y: 1.5rem;
 $width-constraint: 45rem;
 $width-constraint-print: 100%;
+$hero-height-em: $unit-y * 10;
+$hero-height-vh: 10vh;
 
 //////////////////////////////////////////////////
 // imports
