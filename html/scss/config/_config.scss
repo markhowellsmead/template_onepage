@@ -130,9 +130,10 @@ $line-height: (
 	'chewie': 			1.375em
 );
 
-$base-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$title-font: "Arial Black", Gadget, sans-serif;
-$advanced-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font: 'Helvetica Neue', "HelveticaNeue", Helvetica, Arial, sans-serif;
+$title-font: 'HelveticaNeue-CondensedBlack', 'Arial Black', Gadget, sans-serif;
+$advanced-font: $base-font;
+$navigation-font: $title-font;
 
 $font-weight: 400;
 

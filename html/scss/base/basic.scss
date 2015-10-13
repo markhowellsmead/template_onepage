@@ -14,7 +14,6 @@
 
 nav {
 	&.meta, &.primary {
-		
 		li {
 			display: inline-block;
 		}
@@ -27,6 +26,19 @@ nav {
 	&.row {
 		padding-top: $unit-y;
 		padding-bottom: $unit-y;
+	}
+	
+	&.hero, &.hero .inner {
+		text-align: center;
+	}
+	&.hero {
+		.image {
+			position: relative;
+			@extend %background-flood;
+		}
+		.caption {
+			@extend %flood;
+		}
 	}
 
 	&.video {
