@@ -135,6 +135,9 @@ svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
 	&.nav {
 		&.primary {
 			font-family: $navigation-font;
+			.menu li {
+				padding: $unit-y/4 $unit-x/4;
+			}
 		}
 		&.meta {
 			padding: ($unit-y / 2) 0;
@@ -145,5 +148,9 @@ svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
 		.row-title, .row-subtitle {
 			margin: 0;
 		}
+	}
+	
+	&.form {
+		@include frp-form();
 	}
 }

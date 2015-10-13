@@ -23,7 +23,14 @@
 }
 
 @mixin vertical-centre() {
-	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+@mixin vertical-bottom() {
+	bottom: 0;
+}
+
+@mixin absolute-centre() {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);

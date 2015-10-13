@@ -8,17 +8,52 @@
 @include breakpoint(medium) {
 
 	.module {
-	
+
 		&.hero {
 			background-color: $hero-background;
 
 			.caption {
-				@include vertical-centre();
+				position: absolute;
+				@include absolute-centre();
 			}
 
 			.image {
 				padding: (4 * $unit-y) 0;
-				@extend %background-flood;
+			}
+		}
+
+		&.nav {
+			&.primary {
+				.inner {
+					height: 2.5 * $unit-y;
+				}
+				.brand {
+					position: absolute;
+					left: $unit-x / 2; bottom: 0;
+				}
+				.menu {
+					position: absolute;
+					right: $unit-x / 2; bottom: 0;
+				}
+			}
+		}
+
+	}
+}
+
+@include breakpoint(mediumlarge) {
+
+	.module {
+
+		&.nav {
+			&.primary {
+				.brand {
+					position: absolute;
+					left: $unit-x;
+				}
+				.menu {
+					right: $unit-x;
+				}
 			}
 		}
 

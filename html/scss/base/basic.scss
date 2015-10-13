@@ -1,29 +1,37 @@
 @import '../config/config';
+@import '/Library/Webserver/webroot/frappant_helpers/scss/form';
 @import 'typography';
+
+
+.inner {
+	@extend %clearfix;
+}
 
 .constrained {
 	.inner {
-		text-align: left;
+		position: relative;
+		box-sizing: content-box;
 		max-width: $width-constraint;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: #{$unit-x / 2};
-		padding-right: #{$unit-x / 2};
+		padding-left: $unit-x;
+		padding-right: $unit-x;
 	}
 }
 
 nav {
 	&.meta, &.primary {
+		text-align: center;
 		li {
 			display: inline-block;
 		}
-		
 	}
 }
 
 .module {
 	
 	&.row {
+		text-align: left;
 		padding-top: $unit-y;
 		padding-bottom: $unit-y;
 	}
@@ -39,7 +47,7 @@ nav {
 		}
 		.image {
 			position: relative;
-			background: 20000% 0 no-repeat;
+			@extend %background-flood;
 			padding: (2 * $unit-y) 0;
 			&.overlay {
 				&:after {
