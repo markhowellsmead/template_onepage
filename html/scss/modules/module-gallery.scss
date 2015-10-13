@@ -1,0 +1,17 @@
+.module.gallery {
+	.elm {
+		margin-bottom: $unit-y;
+	}
+}
+
+@media (max-width: $breakpoint-medium-max) {
+	.module.gallery {
+		@include columns($columns:2, $gutter: $unit-x, $column:'.elm');
+	}
+}
+
+@media (min-width: $breakpoint-medium-max + 1) {
+	.module.gallery {
+		@include columns($columns:3, $gutter: $unit-x, $column:'.elm');
+	}
+}
