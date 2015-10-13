@@ -5,6 +5,21 @@
 
 @import '../config/config';
 
+.module {
+	&.hero {
+		.overlay.dark {
+			.row-title, .row-subtitle {
+				text-shadow: 0 0 2px $hero-overlay-dark-shadow;
+			}
+		}
+		.overlay.light {
+			.row-title, .row-subtitle {
+				text-shadow: 0 0 2px $hero-overlay-light-shadow;
+			}
+		}
+	}
+}
+
 @include breakpoint(medium) {
 
 	.module {
@@ -18,22 +33,25 @@
 			}
 
 			.image {
-				padding: (4 * $unit-y) 0;
+				padding: (10 * $unit-y) 0;
 			}
 		}
 
 		&.nav {
 			&.primary {
 				.inner {
-					height: 3 * $unit-y;
+					height: 4 * $unit-y;
 				}
 				.brand {
 					position: absolute;
-					left: $unit-x / 2; bottom: $unit-y / 4;
+					left: $unit-x / 2;
+					@include vertical-centre();
+					font-size: 2.25em;
 				}
 				.menu {
 					position: absolute;
-					right: $unit-x / 2; bottom: $unit-y / 4;
+					right: $unit-x / 2;
+					@include vertical-centre();
 				}
 			}
 		}

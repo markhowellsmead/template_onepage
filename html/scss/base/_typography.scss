@@ -135,12 +135,16 @@ svg { // https://css-tricks.com/gotchas-on-getting-svg-into-production/
 	&.nav {
 		&.primary {
 			font-family: $navigation-font;
+			padding: ($unit-y / 2) 0;
 			.menu li {
-				padding: $unit-y/4 $unit-x/4;
+				padding: $unit-y/4 $unit-x/8;
 			}
 		}
 		&.meta {
-			padding: ($unit-y / 2) 0;
+			font-size: map-get($meta-size, 'default');
+			li {
+				padding: $unit-y/4 $unit-x/8;
+			}
 		}
 	}
 	

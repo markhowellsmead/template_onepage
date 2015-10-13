@@ -1,7 +1,9 @@
 @import '../config/config';
-@import '/Library/Webserver/webroot/frappant_helpers/scss/form';
 @import 'typography';
 
+.print.logo {
+	display: none;
+}
 
 .inner {
 	@extend %clearfix;
@@ -20,10 +22,27 @@
 }
 
 nav {
+	&.meta {
+		background-color: $meta-background;
+		color: $meta-colour;
+		a {
+			color: inherit;
+		}
+	}
 	&.meta, &.primary {
 		text-align: center;
 		li {
 			display: inline-block;
+		}
+	}
+	
+	&.primary {
+		.brand {
+			@extend %bgi;
+			width: $unit-x * 3;
+			height: $unit-x * 3;
+			margin: 0 auto;
+			background: url('../images/icons/frappant_cube_128.png') center / contain no-repeat;
 		}
 	}
 }
@@ -81,8 +100,12 @@ nav {
 		padding-bottom: 56.25%;
 		position: relative;
 		margin-bottom: $unit-y;
+		background-color: $video-background;
 		iframe {
 			@extend %flood;
+			&[src*="youtube"], &[src*="youtu.be"]{
+				background: url('../images/icons/video.png') center / #{$unit-x * 2} #{$unit-y * 2} no-repeat;
+			}
 		}
 	}
 

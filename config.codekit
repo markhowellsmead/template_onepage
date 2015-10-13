@@ -56,6 +56,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/images\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.81872e+06,
+		"inputAbbreviatedPath": "\/html\/images\/1.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465957,
+		"inputAbbreviatedPath": "\/html\/images\/2.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/icons\/frappant_cube_128.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3591,
+		"inputAbbreviatedPath": "\/html\/images\/icons\/frappant_cube_128.png",
+		"outputAbbreviatedPath": "\/html\/images\/icons\/frappant_cube_128.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/icons\/video.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2179,
+		"inputAbbreviatedPath": "\/html\/images\/icons\/video.png",
+		"outputAbbreviatedPath": "\/html\/images\/icons\/video.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/icons\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30668,
+		"inputAbbreviatedPath": "\/html\/images\/icons\/youtube.png",
+		"outputAbbreviatedPath": "\/html\/images\/icons\/youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

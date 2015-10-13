@@ -27,15 +27,22 @@ $line-colour:			$grey;
 $nav-colour:			$grey;
 $nav-colour-act:	$red;
 
+$meta-colour:			$grey;
+$meta-background:	$lightgrey;
+
 $button-background: $red;
 $button-colour: 		$white;
 
 $hero-background: $midgrey;
 $hero-overlay-light-background: rgba(255,255,255,.75);
-$hero-overlay-dark-background:	rgba(0,0,0,.25);
-
 $hero-overlay-light-colour: $grey;
+$hero-overlay-light-shadow: $white;
+$hero-overlay-dark-background:	rgba(0,0,0,.4);
 $hero-overlay-dark-colour:	$white;
+$hero-overlay-dark-shadow:	$grey;
+
+$video-background: $midgrey;
+
 
 
 //////////////////////////////////////////////////
@@ -64,7 +71,7 @@ $font-size: (
 
 $h1-size: (
 	'print': 				36pt,
-	'default': 			3em,
+	'default': 			2em,
 	'tiny': 				2em,
 	'small': 				2em,
 	'medium': 			2.5em,
@@ -128,6 +135,17 @@ $h6-size: (
 	'chewie': 			1em
 );
 
+$meta-size: (
+	'print': 				10pt,
+	'default': 			0.875em,
+	'tiny': 				0.875em,
+	'small': 				0.9375em,
+	'medium': 			0.9375em,
+	'mediumlarge': 	0.875em,
+	'large': 				0.875em,
+	'chewie': 			0.875em
+);
+
 $line-height: (
 	'print': 				1.25em,
 	'default': 			1.25em,
@@ -162,5 +180,7 @@ $width-constraint-print: 100%;
 //////////////////////////////////////////////////
 // imports
 
+@import '/Library/Webserver/webroot/frappant_helpers/scss/basics';
+@import '/Library/Webserver/webroot/frappant_helpers/scss/form';
 @import 'mixins';
 @import 'silent';
