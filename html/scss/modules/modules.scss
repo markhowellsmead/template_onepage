@@ -25,15 +25,15 @@
 		&.nav {
 			&.primary {
 				.inner {
-					height: 2.5 * $unit-y;
+					height: 3 * $unit-y;
 				}
 				.brand {
 					position: absolute;
-					left: $unit-x / 2; bottom: 0;
+					left: $unit-x / 2; bottom: $unit-y / 4;
 				}
 				.menu {
 					position: absolute;
-					right: $unit-x / 2; bottom: 0;
+					right: $unit-x / 2; bottom: $unit-y / 4;
 				}
 			}
 		}
