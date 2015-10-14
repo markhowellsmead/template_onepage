@@ -6,12 +6,13 @@
 		padding-bottom: $unit-y;
 	}
 	
-	&.grid {
+	&.gallery {
+		@include columns($columns:2, $gutter: $unit-x, $column:'.elm');
 		.elm {
-			padding-bottom: $unit-y;
+			margin-bottom: $unit-y;
 		}
 	}
-	
+
 	&.hero, &.hero .inner {
 		text-align: center;
 	}
@@ -24,7 +25,7 @@
 		.image {
 			position: relative;
 			@extend %background-flood;
-			padding: (2 * $unit-y) 0;
+			padding: (6 * $unit-y) 0;
 			&.overlay {
 				&:after {
 					content: '';

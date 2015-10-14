@@ -7,7 +7,13 @@
 @import 'module-gallery';
 
 .module {
+
 	&.hero {
+		
+		.image {
+			padding: (2 * $unit-y) 0;
+		}		
+		
 		.overlay.dark {
 			.row-title, .row-subtitle {
 				text-shadow: 0 0 2px $hero-overlay-dark-shadow;

@@ -1,6 +1,8 @@
+// reset the clearance rules from non-responsive CSS
 .module.gallery {
-	.elm {
-		margin-bottom: $unit-y;
+	.elm:nth-of-type(2n+1){
+		clear: none;
+		margin-left: $unit-x;
 	}
 }
 

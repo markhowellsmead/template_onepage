@@ -25,6 +25,7 @@
 nav {
 	&.meta {
 		background-color: $meta-background;
+		box-shadow: inset 0px 0 6px rgba(0,0,0,.1);
 		color: $meta-colour;
 		a {
 			color: inherit;
