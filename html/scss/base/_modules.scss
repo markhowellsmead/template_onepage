@@ -24,6 +24,7 @@
 		}
 		.image {
 			position: relative;
+			background: center no-repeat;
 			@extend %background-flood;
 			padding: (6 * $unit-y) 0;
 			&.overlay {
@@ -37,7 +38,7 @@
 						color: $hero-overlay-dark-colour;
 					}
 					&:after {
-						background-color: $hero-overlay-dark-background;
+						background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgSAMAAGkAZ7BewkoAAAAASUVORK5CYII=); // black 40%, see http://px64.net/
 					}
 				}
 				&.light {
@@ -45,7 +46,7 @@
 						color: $hero-overlay-light-colour;
 					}
 					&:after {
-						background-color: $hero-overlay-light-background;
+						background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4vx8AAsABv3RFbnoAAAAASUVORK5CYII=); // white 75%, see http://px64.net/
 					}
 				}
 			}

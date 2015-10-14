@@ -117,7 +117,7 @@
 
 %inline-nav {
 	text-align: center;
-	margin-bottom: 1rem;
+	margin-bottom: $unit-y;
 	line-height: 1;
 	ul, li {
 		margin: 0;
@@ -167,15 +167,15 @@
 }
 
 %title {
-	font: normal 1rem $title-font;
+	font: bold 1em $title-font;
 	color: $title-colour;
 }
 
 %section-title {
-	margin: 0 0 1rem;
+	margin: 0 0 $unit-y;
 }
 
 %section-subtitle {
 	@extend %centered-block;
-	margin: 1rem auto;
+	margin: $unit-y auto;
 }

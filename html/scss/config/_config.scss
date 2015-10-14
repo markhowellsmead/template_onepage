@@ -41,6 +41,8 @@ $hero-overlay-dark-background:	rgba(0,0,0,.4);
 $hero-overlay-dark-colour:	$white;
 $hero-overlay-dark-shadow:	$grey;
 
+$toolbar-background: rgba($page-background, .85);
+
 $video-background: $midgrey;
 
 
@@ -158,7 +160,7 @@ $line-height: (
 );
 
 $base-font: 'Helvetica Neue', "HelveticaNeue", Helvetica, Arial, sans-serif;
-$title-font: 'HelveticaNeue-CondensedBlack', 'Arial Black', Gadget, sans-serif;
+$title-font: 'HelveticaNeue-CondensedBlack', 'Impact', 'Arial Black', Gadget, sans-serif;
 $advanced-font: $base-font;
 $navigation-font: $title-font;
 
@@ -172,9 +174,9 @@ $transition-speed: 500ms;
 //////////////////////////////////////////////////
 // sizes
 
-$unit-x: 1.5rem;
-$unit-y: 1.5rem;
-$width-constraint: 45rem;
+$unit-x: 1.5em;
+$unit-y: 1.5em;
+$width-constraint: 45em;
 $width-constraint-print: 100%;
 
 //////////////////////////////////////////////////

@@ -13,12 +13,12 @@ body {
 	text-align:center;
 	background-color: $page-background;
 	font-weight: $font-weight;
-	font-size: 1rem;
+	font-size: 1em;
 	font-family: $base-font;
 	-moz-font-feature-settings: “liga” on;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	letter-spacing: 0.01rem;
+	letter-spacing: 0.01em;
 	color: $text-colour;
 }
 

@@ -56,24 +56,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/images\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.81872e+06,
-		"inputAbbreviatedPath": "\/html\/images\/1.jpg",
-		"outputAbbreviatedPath": "\/html\/images\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/2.jpg": {
+	"\/html\/images\/alps.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 465957,
-		"inputAbbreviatedPath": "\/html\/images\/2.jpg",
-		"outputAbbreviatedPath": "\/html\/images\/2.jpg",
+		"inputAbbreviatedPath": "\/html\/images\/alps.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/alps.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -119,6 +108,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/html\/JavaScript\/jquery-1.11.3.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/jquery-1.11.3.min.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/jquery-1.11.3.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/html\/JavaScript\/jquery.anchoranimate.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/jquery.anchoranimate.min.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/jquery.anchoranimate.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/html\/JavaScript\/ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/ui.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/ui.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/html\/JavaScript\/ui.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/ui.min.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/ui.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/html\/scss\/base\/_modules.scss": {
 		"createSourceMap": 0,
