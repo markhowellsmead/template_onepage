@@ -37,7 +37,11 @@
 	//////////////////////////////////////////////////
 
 	$(document).on('ready', function(){
-		$('a.anchor').anchorAnimate();
+		$('a').each(function(){
+			if( $(this).attr('href').indexOf('#') === 0 ){
+				$(this).anchorAnimate();
+			}
+		});
 	});
 
 })(jQuery);
