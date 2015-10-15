@@ -2,18 +2,18 @@
 .module.gallery {
 	.elm:nth-of-type(2n+1){
 		clear: none;
-		margin-left: $unit-x;
+		margin-left: 2%;
 	}
 }
 
 @media (max-width: $breakpoint-medium-max) {
 	.module.gallery {
-		@include columns($columns:2, $gutter: $unit-x, $column:'.elm');
+		@include columns($columns:2, $gutter: $column-spacing, $column:'.elm');
 	}
 }
 
 @media (min-width: $breakpoint-medium-max + 1) {
 	.module.gallery {
-		@include columns($columns:3, $gutter: $unit-x, $column:'.elm');
+		@include columns($columns:3, $gutter: $column-spacing, $column:'.elm');
 	}
 }

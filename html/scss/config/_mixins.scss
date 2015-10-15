@@ -37,30 +37,29 @@
 }
 
 @mixin columns($columns:-1, $gutter: 2.66666666666667%, $column: '.column'){
-	// don't call this mixin directly.
-	// use guttered_columns or flex_columns (above)
 	@extend %clearfix;
 	overflow: hidden;
+	box-sizing: border-box;
 	#{$column} {
 		float: left;
 		margin-left: $gutter;
 		min-height:.1em;
-		@include layout_row_maths($columns, $gutter)
+		@include layout_row_maths($columns, $gutter);
+		&:nth-of-type(#{$columns}n+1) {
+			clear: both;
+			margin-left: 0;
+		}
 	}
+	.clear {
+		clear: both;
+		margin-left: 0;
+	}
+
 }
 
 //////////////////////////////////////////////////
 // calculate the width of each column in a row
 
 @mixin layout_row_maths($columns:10, $gutter: 2.66666666666667%){
-	
-	$gutter_total: $gutter * ($columns - 1);
-	
-	width: calc( ( 100% - #{$gutter_total} ) / #{$columns} );
-	margin-left: $gutter;
-	&:nth-of-type(#{$columns}n+1){
-		clear:both;
-		margin-left:0;
-	}
-
+	width: (100% - ($gutter * ($columns - 1) ) ) / $columns;
 }
