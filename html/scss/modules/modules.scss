@@ -7,6 +7,10 @@
 @import 'module-gallery';
 
 .module {
+	
+	&.form {
+		@include frp-form-breakpoint();
+	}
 
 	&.hero {
 		

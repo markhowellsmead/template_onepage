@@ -131,6 +131,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/html\/JavaScript\/nth-child-ie8.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/nth-child-ie8.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/nth-child-ie8.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/html\/JavaScript\/nth-child-ie8.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/JavaScript\/nth-child-ie8.min.js",
+		"outputAbbreviatedPath": "\/html\/JavaScript\/nth-child-ie8.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/html\/JavaScript\/ui.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -156,7 +178,7 @@
 	"\/html\/scss\/base\/_modules.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -172,7 +194,7 @@
 	"\/html\/scss\/base\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -188,7 +210,7 @@
 	"\/html\/scss\/base\/basic.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -204,7 +226,7 @@
 	"\/html\/scss\/base\/module-dark.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -220,7 +242,7 @@
 	"\/html\/scss\/base\/print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -236,7 +258,7 @@
 	"\/html\/scss\/config\/_config.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -252,7 +274,7 @@
 	"\/html\/scss\/config\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -268,7 +290,7 @@
 	"\/html\/scss\/config\/_silent.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -284,7 +306,7 @@
 	"\/html\/scss\/modules\/module-gallery.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -300,7 +322,7 @@
 	"\/html\/scss\/modules\/modules.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -316,7 +338,7 @@
 	"\/html\/scss\/modules\/typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 15,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -943,7 +965,7 @@
 	"sassAutoOutputPathStyle": 2,
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
-	"sassDecimalPrecision": 10,
+	"sassDecimalPrecision": 15,
 	"sassOutputStyle": 3,
 	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,
